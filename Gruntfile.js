@@ -30,7 +30,7 @@ module.exports = function(grunt) {
 					keepalive: false
 				},
 				files:{
-					'dist/dungeongeneration.js': [ 'lib/init.js' ]
+					'dist/modularai.js': [ 'lib/main.js' ]
 				}
 			}
 		},
@@ -43,7 +43,7 @@ module.exports = function(grunt) {
 			},
 			default: {
 				src: './lib/init.js',
-				dest: './dist/dungeongeneration.js'
+				dest: './dist/modularai.js'
 			}
 		},
 
@@ -51,7 +51,7 @@ module.exports = function(grunt) {
 		uglify: {
 			dist: {
 				files: {
-					'dist/dungeongeneration.min.js': 'dist/dungeongeneration.js'
+					'dist/modularai.min.js': 'dist/modularai.js'
 				}
 			}
 		}
@@ -67,7 +67,7 @@ module.exports = function(grunt) {
 
 	//Define 'grunt debug' task
 	grunt.registerTask('debug', [
-		'jshint',
+		'jshint'
 	]);
 
 	//Define 'grunt build' task
@@ -78,7 +78,7 @@ module.exports = function(grunt) {
 
 	//Define 'grunt dev' task
 	grunt.registerTask('dev', [
-		'watchify',
+		'watchify'
 	]);
 
 };

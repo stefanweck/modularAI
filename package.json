@@ -1,9 +1,9 @@
 {
-  "title": "Dungeon Generator",
-  "name": "dungeongenerator",
-  "version": "0.6.3",
+  "title": "modularAI",
+  "name": "modularAI",
+  "version": "0.0.1",
   "author": "Stefan Weck",
-  "homepage": "https://github.com/stefanweck/dungeongeneration",
+  "homepage": "https://github.com/stefanweck/modularAI",
   "engines": {
     "node": ">= 0.10.0"
   },
