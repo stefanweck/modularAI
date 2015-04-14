@@ -30,7 +30,7 @@ module.exports = function(grunt) {
 					keepalive: false
 				},
 				files:{
-					'dist/modularai.js': [ 'lib/main.js' ]
+					'dist/modularai.js': [ 'lib/init.js' ]
 				}
 			}
 		},
