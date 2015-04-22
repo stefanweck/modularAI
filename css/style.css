@@ -6,6 +6,7 @@
 body{
 	background-color:#fff;
     overflow:hidden;
+    font-family: 'Lato', sans-serif;
 }
 
 .overlay{
@@ -14,4 +15,55 @@ body{
     left:20px;
     color:#fff;
     font-family:arial, helvetica, sans-serif;
+}
+
+.sidebar{
+    width:250px;
+    position:absolute;
+    right:0;
+    top:0;
+    bottom:0;
+    background-color:#fafafa;
+    padding:25px;
+}
+
+.titleContainer{
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.titleContainer h1{
+    font-weight:300;
+    margin:20px 0;
+    font-size:20px;
+}
+
+.borderTop{
+    width:30%;
+    margin:0 auto;
+    border-top:1px solid #000000;
+}
+
+.volumeDescription{
+    width:100%;
+    text-align:center;
+    font-weight:300;
+    text-transform: uppercase;
+}
+
+.volumeSlider{
+    width:100%;
+    background-color:#efefef;
+    height:20px;
+    margin-bottom:20px;
+}
+
+.volumeLevel{
+    width:0;
+    height:20px;
+    background-color:#dcdcdc;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition:    all 0.3s ease;
+    -ms-transition:     all 0.3s ease;
+    -o-transition:      all 0.3s ease;
 }
