@@ -6,6 +6,8 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <script>var globalSettings;</script>
+
     <script async src="dist/modularai.js"></script>
     <script src="dist/three.min.js"></script>
     <script src="dist/TrackballControls.js"></script>
@@ -19,17 +21,6 @@
         <h1>modularAI Demo</h1>
         <span>Stefan Weck</span>
     </div>
-    <div class="sidebar">
-        <div class="titleContainer">
-            <div class="borderTop"></div>
-            <h1>Measurements</h1>
-        </div>
-        <div class="volumeContainer">
-            <div class="volumeSlider">
-                <div id="volumeControl" class="volumeLevel"></div>
-            </div>
-            <div class="volumeDescription">Volume</div>
-        </div>
-    </div>
+    <div id="container"></div>
 </body>
 </html>
