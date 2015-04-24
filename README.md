@@ -1,7 +1,7 @@
 # modularAI V0.0.1
 The result two week pressure cooker in which I'll develop a Modular AI prototype.
 
-_Version: 0.0.1 - 13 April 2015_
+_Version: 0.1.0 - 24 April 2015_
 
 By [Stefan Weck](http://www.stefanweck.nl),
 
@@ -23,6 +23,10 @@ Run `grunt dev` to watch every module needed in the project for changes. Watchif
 Run `grunt debug` to let JSHint check the code for you, a tool that helps to detect errors and potential problems in your JavaScript code.
 
 ## Changelog
+
+**v0.1.0**
+
+- First version and demonstration of the prototype
 
 **v0.0.1**
 
