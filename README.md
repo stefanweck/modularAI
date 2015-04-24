@@ -1,4 +1,4 @@
-# modularAI V0.0.1
+# modularAI V0.1.0
 The result two week pressure cooker in which I'll develop a Modular AI prototype.
 
 _Version: 0.1.0 - 24 April 2015_
